@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">WeatherConditions</string>
+    <string name="back">back</string>
+    <string name="day_mon_tue_wed_thu_fri_sat_sun">day(mon_tue_wed_thu_fri_sat_sun)</string>
+    <string name="max">max</string>
+    <string name="min">min</string>
+    <string name="add">add</string>
+    <string name="weatherconditions">weatherconditions</string>
+    <string name="clear">clear</string>
+    <string name="view_details">view_details</string>
+</resources>

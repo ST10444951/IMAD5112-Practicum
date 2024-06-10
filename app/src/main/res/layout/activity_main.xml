@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2196F3"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/dayEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:hint="@string/day_mon_tue_wed_thu_fri_sat_sun"
+        android:inputType=""
+        android:minHeight="48dp"
+        android:textColorHint="#263238"
+        tools:ignore="TextFields,TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/MinTemperatureEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:hint="@string/min"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:textColorHint="#263238"
+        tools:ignore="TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/MaxTemperatureEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:hint="@string/max"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:textColorHint="#263238"
+        tools:ignore="TextContrastCheck" />
+
+    <EditText
+        android:id="@+id/WeatherConditionsEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:hint="@string/weatherconditions"
+        android:inputType=""
+        android:minHeight="48dp"
+        android:textColorHint="#263238"
+        tools:ignore="TextFields,TextContrastCheck" />
+
+    <Button
+        android:id="@+id/addButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/clearButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/clear"
+        android:text="@string/clear"
+        tools:ignore="HardcodedText,SpeakableTextPresentCheck" />
+
+    <Button
+        android:id="@+id/viewDetailsButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/view_details"
+        tools:ignore="SpeakableTextPresentCheck" />
+</LinearLayout>
